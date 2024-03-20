@@ -33,7 +33,7 @@ Test_data
 
 ## Comparison with ML-based detectors
 We'll make all responses from two multimodal LLMs upon the paper’s acceptance.
-- Comparison of AUC (%) in detecting DeepFake faces
+### Comparison of AUC (%) in detecting DeepFake faces ###
 | Method                 | Raw SG2 | Raw LD | Ppsed SG2 | Pped LD |
 |------------------------|----------------|---------------|----------------------|---------------------|
 | [CNN-aug](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_CNN-Generated_Images_Are_Surprisingly_Easy_to_Spot..._for_Now_CVPR_2020_paper.pdf)               | 96.5           | 58.6          | 53.2                 | 52.4                |
