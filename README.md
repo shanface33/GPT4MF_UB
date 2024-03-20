@@ -45,7 +45,8 @@ We'll make all responses from two multimodal LLMs upon the paper’s acceptance.
 | Gemini 1.0 (zero-shot) | 76.6           | 75.1          | 77.5                 | 81.5                |
 | GPT4V (zero-shot)      | 77.2           | 79.5          | **88.7**             | **89.8**            |
 
-### Figure: Examples of GPT4V for DeepFake face detection. Left: Results for AI-generated images. Right: Results for real faces. The responses for AI-generated faces are labeled in pink, while for the real faces are labeled in green. Both success (w/ marks) and failure (w/ crosses) cases are shown. See paper for details. ###
+Figure: Examples of GPT4V for DeepFake face detection. Left: Results for AI-generated images. Right: Results for real faces. The responses for AI-generated faces are labeled in pink, while for the real faces are labeled in green. Both success (w/ marks) and failure (w/ crosses) cases are shown. See paper for details. 
+
 <p align="center">
  <img src="./figs/Example.png" alt="preview" width="950pt" />
 </p>
