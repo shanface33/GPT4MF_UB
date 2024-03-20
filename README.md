@@ -46,7 +46,7 @@ We'll make all responses from two multimodal LLMs upon the paper’s acceptance.
 | GPT4V (zero-shot)      | 77.2           | 79.5          | **88.7**             | **89.8**            |
 
 <p align="center">
- <img src="./figs/Example.png" alt="preview" width="800pt" />
+ <img src="./figs/Example.png" alt="preview" width="950pt" />
 </p>
 
 ## Citation
