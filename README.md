@@ -17,25 +17,9 @@ In this work, we investigate the capabilities of multimodal large language model
 
 Two multimodal LLMs have been evaluated: GPT4V and Gemini 1.0 Pro.
 
-## Comparison with ML-based detectors
-We'll make all responses from two multimodal LLMs upon the paper’s acceptance.
-### Comparison of AUC (%) in detecting DeepFake faces
-| Method                 | Raw data (SG2) | Raw data (LD) | Post-processed (SG2) | Post-processed (LD) |
-|------------------------|----------------|---------------|----------------------|---------------------|
-| [CNN-aug](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_CNN-Generated_Images_Are_Surprisingly_Easy_to_Spot..._for_Now_CVPR_2020_paper.pdf)               | 96.5           | 58.6          | 53.2                 | 52.4                |
-| [GAN-DCT](https://proceedings.mlr.press/v119/frank20a/frank20a.pdf)                | 53.4           | 75.4          | 44.4                 | 56.0                |
-| [Nodown](https://arxiv.org/pdf/2104.02617.pdf)                | 99.6           | **97.1**      | 47.4                 | 44.9                |
-| [BeyondtheSpectrum](https://arxiv.org/pdf/2105.14376.pdf)      | 98.1           | 77.3          | 45.4                 | 46.9                |
-| [PSM](https://arxiv.org/pdf/2203.13964.pdf)                    | **99.2**       | 82.5          | 73.1                 | 71.3                |
-| [GLFF](https://ieeexplore.ieee.org/abstract/document/10246417)                  | 97.5           | 86.7          | 80.6                 | 79.4                |
-| Gemini 1.0 (zero-shot) | 76.6           | 75.1          | 77.5                 | 81.5                |
-| GPT4V (zero-shot)      | 77.2           | 79.5          | **88.7**             | **89.8**            |
-
 
 ## Test-data
 The dataset used in this study can be downloaded from the following [link](https://drive.google.com/file/d/1p2nxvQIQCSrACSpYCG_BJmBJ6gFZsywR/view?usp=sharing), which contains 1,000 StyleGAN2 generated face images, 1,000 Latent Diffusion generated images, and 1,000 real faces from FFHQ dataset, drived from [DF^3 dataset](https://arxiv.org/pdf/2211.08615.pdf). Both raw data and post-proccessed (pped) data have been provided.
-
-
 
 The test data has the following structure:
 ```
@@ -46,6 +30,20 @@ Test_data
 |--LD_pped_256Size
 |--LD_raw_512Size
 ```
+
+## Comparison with ML-based detectors
+We'll make all responses from two multimodal LLMs upon the paper’s acceptance.
+- Comparison of AUC (%) in detecting DeepFake faces
+| Method                 | Raw SG2 | Raw LD | Ppsed SG2 | Pped LD |
+|------------------------|----------------|---------------|----------------------|---------------------|
+| [CNN-aug](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_CNN-Generated_Images_Are_Surprisingly_Easy_to_Spot..._for_Now_CVPR_2020_paper.pdf)               | 96.5           | 58.6          | 53.2                 | 52.4                |
+| [GAN-DCT](https://proceedings.mlr.press/v119/frank20a/frank20a.pdf)                | 53.4           | 75.4          | 44.4                 | 56.0                |
+| [Nodown](https://arxiv.org/pdf/2104.02617.pdf)                | 99.6           | **97.1**      | 47.4                 | 44.9                |
+| [BeyondtheSpectrum](https://arxiv.org/pdf/2105.14376.pdf)      | 98.1           | 77.3          | 45.4                 | 46.9                |
+| [PSM](https://arxiv.org/pdf/2203.13964.pdf)                    | **99.2**       | 82.5          | 73.1                 | 71.3                |
+| [GLFF](https://ieeexplore.ieee.org/abstract/document/10246417)                  | 97.5           | 86.7          | 80.6                 | 79.4                |
+| Gemini 1.0 (zero-shot) | 76.6           | 75.1          | 77.5                 | 81.5                |
+| GPT4V (zero-shot)      | 77.2           | 79.5          | **88.7**             | **89.8**            |
 
 ## Citation
 ```
