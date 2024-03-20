@@ -12,7 +12,7 @@ This is the official repository of the paper:
 In this work, we investigate the capabilities of multimodal large language models (LLMs) in DeepFake detection. We conducted **qualitative and quantitative** experiments to demonstrate multimodal LLMs and show that they can expose AI-generated images through careful experimental design and prompt engineering. This is interesting, considering that LLMs are not inherently tailored for media forensic tasks, and the process does not require programming. We discuss the limitations of multimodal LLMs for these tasks and suggest possible improvements.
 
 <p align="center">
- <img src="./figs/overview.png" alt="preview" width="900pt" />
+ <img src="./figs/overview.png" alt="preview" width="500pt" />
 </p>
 
 Two multimodal LLMs have been evaluated: GPT4V and Gemini 1.0 Pro.
@@ -46,7 +46,7 @@ We'll make all responses from two multimodal LLMs upon the paper’s acceptance.
 | GPT4V (zero-shot)      | 77.2           | 79.5          | **88.7**             | **89.8**            |
 
 <p align="center">
- <img src="./figs/Example.png" alt="preview" width="500pt" />
+ <img src="./figs/Example.png" alt="preview" width="800pt" />
 </p>
 
 ## Citation
