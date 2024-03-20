@@ -20,6 +20,8 @@ Two multimodal LLMs have been evaluated: GPT4V and Gemini 1.0 Pro.
 ## Test-data
 The dataset used in this study can be downloaded from the following [link](https://drive.google.com/file/d/1p2nxvQIQCSrACSpYCG_BJmBJ6gFZsywR/view?usp=sharing), which contains 1,000 StyleGAN2 generated face images, 1,000 Latent Diffusion generated images, and 1,000 real faces from FFHQ dataset, drived from [DF^3 dataset](https://arxiv.org/pdf/2211.08615.pdf). Both raw data and post-proccessed (pped) data have been provided.
 
+We'll make all responses from two multimodal LLMs upon the paper’s acceptance.
+
 The test data has the following structure:
 ```
 Test_data
