@@ -28,3 +28,12 @@ Test_data
 |--StyleGAN_pped_256size
 |--LD_pped_256Size
 |--LD_raw_512Size
+
+## License and Citation
+```
+@article{jia2024can,
+  title={Can ChatGPT Detect DeepFakes? A Study of Using Multimodal Large Language Models for Media Forensics},
+  author={Jia, Shan and Lyu, Reilin and Zhao, Kangran and Chen, Yize and Yan, Zhiyuan and Ju, Yan and Hu, Chuanbo and Li, Xin and Wu, Baoyuan and Lyu, Siwei},
+  journal={arXiv preprint},
+  year={2024}
+}
