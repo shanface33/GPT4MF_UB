@@ -30,7 +30,7 @@ Test_data
 |--LD_raw_512Size
 ```
 
-## License and Citation
+## Citation
 ```
 @article{jia2024can,
   title={Can ChatGPT Detect DeepFakes? A Study of Using Multimodal Large Language Models for Media Forensics},
