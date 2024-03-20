@@ -28,7 +28,6 @@ We'll make all responses from two multimodal LLMs upon the paper’s acceptance.
 | [BeyondtheSpectrum](https://arxiv.org/pdf/2105.14376.pdf)      | 98.1           | 77.3          | 45.4                 | 46.9                |
 | [PSM](https://arxiv.org/pdf/2203.13964.pdf)                    | **99.2**       | 82.5          | 73.1                 | 71.3                |
 | [GLFF](https://ieeexplore.ieee.org/abstract/document/10246417)                  | 97.5           | 86.7          | 80.6                 | 79.4                |
-|------------------------|----------------|---------------|----------------------|---------------------|
 | Gemini 1.0 (zero-shot) | 76.6           | 75.1          | 77.5                 | 81.5                |
 | GPT4V (zero-shot)      | 77.2           | 79.5          | **88.7**             | **89.8**            |
 
