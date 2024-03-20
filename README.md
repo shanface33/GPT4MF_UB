@@ -6,25 +6,25 @@
 This is the official repository of the paper:
 [Can ChatGPT Detect DeepFakes? A Study of Using Multimodal Large Language Models for Media Forensics]() 
 
-Shan Jia, Reilin Lyu, Kangran Zhao, Yize Chen, Zhiyuan Yan, Yan Ju, Chuanbo Hu, Xin Li, Baoyuan Wu, Siwei Lyu
+[Shan Jia](https://shanface33.github.io/), Reilin Lyu, Kangran Zhao, Yize Chen, Zhiyuan Yan, Yan Ju, Chuanbo Hu, Xin Li, Baoyuan Wu, [Siwei Lyu](https://cse.buffalo.edu/~siweilyu/)
 
+## Summary
+In this work, we investigate the capabilities of multimodal large language models (LLMs) in DeepFake detection. We conducted qualitative and quantitative experiments to demonstrate multimodal LLMs and show that they can expose AI-generated images through careful experimental design and prompt engineering. This is interesting, considering that LLMs are not inherently tailored for media forensic tasks, and the process does not require programming. We discuss the limitations of multimodal LLMs for these tasks and suggest possible improvements.
+
+<p align="center">
+ <img src="./figs/overview.png" alt="preview" width="500pt" />
+</p>
+
+Two multimodal LLMs have been evaluated: GPT4V and Gemini 1.0 Pro.
 
 ## Test-data
-The synthetic images used as test can be downloaded from the following [link](https://drive.google.com/file/d/1grvgKiIq0ny8ImQzSUXPk3nd-AMEDjNb/view?usp=share_link) alongside a csv file stating the processing applied in the paper on each image. The real images can be downloaded from the following freely available datasets : [IMAGENET](https://image-net.org/index.php), [UCID](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/5307/0000/UCID-an-uncompressed-color-image-database/10.1117/12.525375.short),[COCO - Common Objects in Context](https://cocodataset.org/#home).
-The real images should then be placed in a folder with the same name that has been recorded in the csv file
-The directory containing the test set should have the following structure:
+The dataset used in this study can be downloaded from the following [link](https://drive.google.com/file/d/1p2nxvQIQCSrACSpYCG_BJmBJ6gFZsywR/view?usp=sharing)), which contains 1,000 StyleGAN2 generated face images, 1,000 Latent Diffusion generated images, and 1,000 real faces from FFHQ dataset, drived from [DF^3 dataset](https://arxiv.org/pdf/2211.08615.pdf). Both raw data and post-proccessed (pped) data are provided.
+
+The test data has the following structure:
 ```
-Testset directory
-|--biggan_256
-|--biggan_512
-.
-.
-.
-|--real_coco_valid
-|--real_imagenet_valid
-|--real_ucid
-.
-.
-.
-|--taming-transformers_segm2image_valid
-```
+Test_data
+|--Real_512Size 
+|--StyleGAN_raw_512size 
+|--StyleGAN_pped_256size
+|--LD_pped_256Size
+|--LD_raw_512Size
