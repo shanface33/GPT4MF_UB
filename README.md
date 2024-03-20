@@ -33,7 +33,7 @@ Test_data
 
 ## Comparison with ML-based detectors
 We'll make all responses from two multimodal LLMs upon the paper’s acceptance.
-### Table 1. Comparison of AUC (%) in detecting DeepFake faces ###
+### Table: Comparison of AUC (%) in detecting DeepFake faces ###
 | Method                 | Raw SG2 | Raw LD | Pped SG2 | Pped LD |
 |------------------------|----------------|---------------|----------------------|---------------------|
 | [CNN-aug](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_CNN-Generated_Images_Are_Surprisingly_Easy_to_Spot..._for_Now_CVPR_2020_paper.pdf)               | 96.5           | 58.6          | 53.2                 | 52.4                |
@@ -45,6 +45,7 @@ We'll make all responses from two multimodal LLMs upon the paper’s acceptance.
 | Gemini 1.0 (zero-shot) | 76.6           | 75.1          | 77.5                 | 81.5                |
 | GPT4V (zero-shot)      | 77.2           | 79.5          | **88.7**             | **89.8**            |
 
+### Figure: Examples of GPT4V for DeepFake face detection. Left: Results for AI-generated images. Right: Results for real faces. The responses for AI-generated faces are labeled in pink, while for the real faces are labeled in green. Both success (w/ marks) and failure (w/ crosses) cases are shown. See paper for details. ###
 <p align="center">
  <img src="./figs/Example.png" alt="preview" width="950pt" />
 </p>
