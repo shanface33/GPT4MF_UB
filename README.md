@@ -1,10 +1,10 @@
 # Can ChatGPT Detect DeepFakes? A Study of Using Multimodal Large Language Models for Media Forensics
 
-[![Github](https://img.shields.io/badge/Github%20webpage-222222.svg?style=for-the-badge&logo=github)]()
-[![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge)]()
+[![Github](https://img.shields.io/badge/Github%20webpage-222222.svg?style=for-the-badge&logo=github)](https://github.com/shanface33/GPT4MF_UB)
+[![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge)](https://arxiv.org/pdf/2403.14077.pdf)
 
 This is the official repository of the paper:
-[Can ChatGPT Detect DeepFakes? A Study of Using Multimodal Large Language Models for Media Forensics]() 
+[Can ChatGPT Detect DeepFakes? A Study of Using Multimodal Large Language Models for Media Forensics](https://arxiv.org/pdf/2403.14077.pdf) 
 
 [Shan Jia](https://shanface33.github.io/), Reilin Lyu, Kangran Zhao, Yize Chen, Zhiyuan Yan, Yan Ju, Chuanbo Hu, Xin Li, Baoyuan Wu, Siwei Lyu
 
@@ -53,9 +53,10 @@ The following figure shows examples of GPT4V for DeepFake face detection. Left: 
 
 ## Citation
 ```
-@article{jia2024can,
-  title={Can ChatGPT Detect DeepFakes? A Study of Using Multimodal Large Language Models for Media Forensics},
-  author={Jia, Shan and Lyu, Reilin and Zhao, Kangran and Chen, Yize and Yan, Zhiyuan and Ju, Yan and Hu, Chuanbo and Li, Xin and Wu, Baoyuan and Lyu, Siwei},
-  journal={arXiv preprint},
-  year={2024}
+@misc{jia2024chatgpt,
+      title={Can ChatGPT Detect DeepFakes? A Study of Using Multimodal Large Language Models for Media Forensics}, 
+      author={Shan Jia and Reilin Lyu and Kangran Zhao and Yize Chen and Zhiyuan Yan and Yan Ju and Chuanbo Hu and Xin Li and Baoyuan Wu and Siwei Lyu},
+      year={2024},
+      eprint={2403.14077},
+      archivePrefix={arXiv},
 }
