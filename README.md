@@ -27,8 +27,8 @@ Test_data
 |--Real_512Size 
 |--StyleGAN_raw_512size 
 |--StyleGAN_pped_256size
-|--LD_pped_256Size
-|--LD_raw_512Size
+|--LD_raw_256Size
+|--LD_pped_512Size
 ```
 
 ## Comparison with ML-based detectors
